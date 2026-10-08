@@ -134,39 +134,35 @@ img{
 ========================= */
 
 .open-btn,
-.scroll-link{
-  color:var(--ink);
-  display:inline-flex;
-  align-items:center;
-  gap:18px;
-  border:0;
-  background:none;
-  border-bottom:1px solid var(--ink);
-  padding:11px 0;
-  letter-spacing:.14em;
-  font-size:10px;
-  font-weight:600;
-  cursor:pointer
+.scroll-link {
+  color: #f2edf5 !important;
+  display: inline-flex;
+  align-items: center;
+  gap: 18px;
+  border: 0;
+  background: transparent !important;
+  border-bottom: 1px solid #f2edf5 !important;
+  padding: 11px 0;
+  letter-spacing: .14em;
+  font-size: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  text-shadow: 0 0 10px rgba(209, 181, 227, .15);
 }
 
-.open-btn{
-  color:#f2edf5;
-  border-bottom-color:#f2edf5;
-  text-shadow:0 0 10px rgba(209,181,227,.12);
+.open-btn:hover,
+.scroll-link:hover {
+  color: #d1b5e3 !important;
+  border-bottom-color: #d1b5e3 !important;
 }
 
-.open-btn:hover{
-  color:#d1b5e3;
-  border-bottom-color:#d1b5e3;
+.open-btn span {
+  font-size: 18px;
+  transition: transform .25s;
 }
 
-.open-btn span{
-  font-size:18px;
-  transition:transform .25s
-}
-
-.open-btn:hover span{
-  transform:translateX(5px)
+.open-btn:hover span {
+  transform: translateX(5px);
 }
 
 .music-note{
